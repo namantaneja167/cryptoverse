@@ -20,7 +20,7 @@ function App() {
                 <Exchanges/>
               </Route>
               <Route exact path="/cryptocurrencies">
-                <Cryptocurrencies/>
+                <Cryptocurrencies simplified={false}/>
               </Route>
               <Route exact path="/crypto/:coinId">
                 <CryptoDetails/>
